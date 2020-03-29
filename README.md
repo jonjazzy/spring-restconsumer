@@ -2,6 +2,14 @@
 
 ##Spring 5 - WebClient Example
 
+####Good Resources
+ - Good basic sample:- http://www.matjazcerkvenik.si/developer/java-json.php
+ - org.json.simple:- https://stackoverflow.com/questions/13155200/org-json-simple-cannot-be-resolved
+ - Sample Endpoint 1:- https://gturnquist-quoters.cfapps.io/api/random
+ - Basic Authentication in Spring WebClient:- https://www.viralpatel.net/basic-authentication-spring-webclient/
+ - Interswitch TechQuest Base API:- https://github.com/techquest/
+ - Interswitch Funds Transfer API:- https://github.com/techquest/b2c_funds_transfer_java
+ 
 ####Client Application using WebClient (Blocking)
 ```$xslt
 public String getResponseFromURLBlocking() throws InterruptedException {

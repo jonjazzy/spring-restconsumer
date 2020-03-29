@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 import java.net.URI;
 import java.util.Collections;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringRestconsumerApplication implements CommandLineRunner {
 
     static Logger LOGGER = LoggerFactory.getLogger(SpringRestconsumerApplication.class);
@@ -31,9 +31,9 @@ public class SpringRestconsumerApplication implements CommandLineRunner {
         LOGGER.info("I am here");
 
         //Blocking
-//      WebClientExample.getResponseFromURLBlocking();
+      WebClientExample.getResponseFromURLBlocking();
 
         //Non Blocking
-        WebClientExample.getResponseFromURLNoBlocking();
+//        WebClientExample.getResponseFromURLNoBlocking();
     }
 }
